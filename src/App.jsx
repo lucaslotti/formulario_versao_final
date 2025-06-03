@@ -71,7 +71,7 @@ function App() {
       <Container maxWidth="sm" sx={{ mt: 4 }}>
         <Paper elevation={3} sx={{ p: 3 }}>
           <Tabs value={tab} onChange={handleTabChange} centered>
-            <Tab label="Cadastro" />
+            <Tab label="Cadastros" />
             <Tab label="Usuários" />
           </Tabs>
 
